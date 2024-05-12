@@ -4,18 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AYBU Photography Club - Bilgi Köşesi</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="jquery-ui.css">
-    <script src="jQuery.js"></script>
-    <script src="jquery-ui.js"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
     <script src="information.js"></script>
+
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- Header Section -->
     <header>
         <!-- Logo -->
         <div class="logo">
-            <img src="images\logo1.png" alt="AYBU Fotoğrafçılık Kulübü">
+            <img src="images/logo1.png" alt="AYBU Fotoğrafçılık Kulübü">
         </div>
         <!-- Navigation Menu -->
         <nav>
@@ -33,52 +35,30 @@
     <main>
         <h1>Bilgi Köşesi</h1>
         <!-- Photography Techniques Section -->
-        <section id="photography-techniques">
-            <div class="container">
-                <h4>Fotoğrafçılık Teknikleri</h4>
-                <div class="info">
-                    <div class="info-text">
-                        <h3>Portre Fotoğrafçılığı</h3>
-                        <p>Portre fotoğrafçılığı, insan yüzlerini ve duygularını yakalamayı hedefler. Doğru ışık, kompozisyon ve model yönlendirmesi portre fotoğrafının kalitesini belirler.</p>
-                    </div>
-                    <div class="info-image">
-                        <img src="images\information_column\portrait.jpg" alt="Portre Fotoğrafı">
-                    </div>
-                </div>
+        <div id="accordion">
+            <h3>Fotoğrafçılık Teknikleri</h3>
+            <div>
+                <h2>Portre Fotoğrafçılığı</h2>
+                <p>Portre fotoğrafçılığı, insan yüzlerini ve duygularını yakalamayı hedefler. Doğru ışık, kompozisyon ve model yönlendirmesi portre fotoğrafının kalitesini belirler.</p>
+                <img src="images/information_column/portrait.jpg" alt="Portre Fotoğrafı">
             </div>
-        </section>
-        
-        <!-- Equipment Recommendations Section -->
-        <section id="equipment-recommendations">
-            <div class="container">
-                <h4>Ekipman Önerileri</h4>
-                <div class="info">
-                    <div class="info-text">
-                        <h3>En İyi Lensler</h3>
-                        <p>Lens seçimi, fotoğrafçının çekim tarzına, bütçesine ve hedeflediği kaliteye bağlıdır. Geniş açılı lensler manzara ve mimari fotoğrafçılığı için uygundur, telefoto lensler ise uzak nesneleri yakalamak için idealdir.</p>
-                    </div>
-                    <div class="info-image">
-                        <img src="images\information_column\lenses.jpg" alt="Lensler">
-                    </div>
-                </div>
+            
+            <!-- Equipment Recommendations Section -->
+            <h3>Ekipman Önerileri</h3>
+            <div>
+                <h2>En İyi Lensler</h2>
+                <p>Lens seçimi, fotoğrafçının çekim tarzına, bütçesine ve hedeflediği kaliteye bağlıdır. Geniş açılı lensler manzara ve mimari fotoğrafçılığı için uygundur, telefoto lensler ise uzak nesneleri yakalamak için idealdir.</p>
+                <img src="images/information_column/lenses.jpg" alt="Lensler">
             </div>
-        </section>
-        
-        <!-- Useful Tips Section -->
-        <section id="useful-tips">
-            <div class="container">
-                <h4>Faydalı İpuçları</h4>
-                <div class="info">
-                    <div class="info-text">
-                        <h3>Işık Kullanımı</h3>
-                        <p>Işık, fotoğrafın temel bileşenidir ve fotoğrafçının en önemli aracıdır. Işık kaynağına göre farklı gölgeler ve tonlar elde edilir. Yumuşak ışık portre fotoğrafları için tercih edilirken, güneş ışığı dramatik efektler için kullanılabilir.</p>
-                    </div>
-                    <div class="info-image">
-                        <img src="images\information_column\lighting.jpg" alt="Işık Kullanımı">
-                    </div>
-                </div>
+            
+            <!-- Useful Tips Section -->
+            <h3>Faydalı İpuçları</h3>
+            <div>
+                <h2>Işık Kullanımı</h2>
+                <p>Işık, fotoğrafın temel bileşenidir ve fotoğrafçının en önemli aracıdır. Işık kaynağına göre farklı gölgeler ve tonlar elde edilir. Yumuşak ışık portre fotoğrafları için tercih edilirken, güneş ışığı dramatik efektler için kullanılabilir.</p>
+                <img src="images/information_column/lighting.jpg" alt="Işık Kullanımı">
             </div>
-        </section>
+        </div>
     </main>
 
     <!-- Footer Section -->
@@ -93,5 +73,7 @@
             </ul>
         </div>
     </footer>
+
+
 </body>
 </html>
