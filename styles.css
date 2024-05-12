@@ -395,22 +395,6 @@ input:valid {
     border: 2px solid rgb(0, 0, 0);
 }
 
-/* Hover effect for section headings and paragraphs */
-section h4:hover
- {
-    font-size: 42px;
-    color: #ff7f0e;
-    transition: all 0.3s ease;
-}
-
-section h4, .event-description h4 {
-    font-family: 'Bradley Hand', cursive; 
-    text-align: center;
-    margin-bottom: 20px;
-    color: #2e2d2d; 
-    font-size: 28px; 
-}
-
 .event-info {
     display: flex;
     align-items: center;
@@ -428,9 +412,5 @@ section h4, .event-description h4 {
 
 .event-date {
     font-style: italic;
-    color: #888;
+    color: #888;
 }
-
-
-
-
