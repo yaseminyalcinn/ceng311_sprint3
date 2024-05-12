@@ -159,10 +159,19 @@ section {
     height: 400px;
 }
 
-/* Slideshow image styles */
-/* Set width for slideshow images */
-.mySlides img {
-    width: 300px;
+
+.slider {
+    margin: 0 auto; 
+    max-width: 300px; 
+    width: 100%; 
+}
+
+
+.slider img {
+    margin: 0 auto; 
+    display: block; 
+    max-width: 100%; 
+    height: auto; 
 }
 
 /* Thumbnail image styles */
@@ -421,3 +430,7 @@ section h4, .event-description h4 {
     font-style: italic;
     color: #888;
 }
+
+
+
+
